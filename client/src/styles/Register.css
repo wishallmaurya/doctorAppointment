@@ -1,0 +1,10 @@
+.form-container{
+    align-self: center;
+    width: 65vh;   
+    justify-content: center;
+    justify-self: center; 
+    margin: auto;
+    position: relative;
+    margin-top: 150px;
+    
+}
