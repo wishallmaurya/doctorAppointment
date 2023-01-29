@@ -25,6 +25,10 @@ const HomePage = () => {
       <Link to={"/register"}>
         <button>Register</button>
       </Link>
+      <br />
+      <Link to={"/login"}>
+        <button>Login</button>
+      </Link>
     </div>
   );
 };
