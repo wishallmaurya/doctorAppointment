@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import axios from "axios";
 
 import { Link } from "react-router-dom";
+import Layout from "../components/Layout";
 
 const HomePage = () => {
   const getUserData = async() => {
@@ -20,7 +21,7 @@ const HomePage = () => {
     getUserData();
   },[])
   return (
-    <div>
+    <Layout>
       <h2>HOME PAGE</h2>
       <Link to={"/register"}>
         <button>Register</button>
@@ -29,7 +30,7 @@ const HomePage = () => {
       <Link to={"/login"}>
         <button>Login</button>
       </Link>
-    </div>
+    </Layout>
   );
 };
 
